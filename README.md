@@ -36,8 +36,6 @@ The user interface definition is placed in this script.
 
 The server function function definition is placed in this script.
 
-This script was slightly modified from https://github.com/jocelynpender/fna-query/blob/master/R/src/query.R The function `ask_query_titles()` was modified to return a data frame.
-
 
 ### CSV files
 
@@ -50,6 +48,18 @@ Here is a list of those files:
 `other.csv`
 `status.csv`
 `status_count.csv`
+
+## Final Output
+
+Here are some screen shots of the final dashboard: 
+
+<img width="928" alt="1" src="https://user-images.githubusercontent.com/65621746/91585662-599f6680-e922-11ea-936d-be37a32d7004.PNG">
+
+<img width="923" alt="2" src="https://user-images.githubusercontent.com/65621746/91585857-98cdb780-e922-11ea-85ba-3bf089217efa.PNG">
+
+<img width="605" alt="3" src="https://user-images.githubusercontent.com/65621746/91585876-a1be8900-e922-11ea-83ff-2738f953f960.PNG">
+
+
 
 
 
