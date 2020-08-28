@@ -5,18 +5,18 @@ library(shinyWidgets)
 
 
 shinyUI(
-  dashboardPage(
+  dashboardPage( #Create main dashboard
     skin = "green",
     dashboardHeader(title= "Validating taxa in FNA with taxa in Vascan", titleWidth = 450),
-    dashboardSidebar(width = 450,
-      sidebarMenu(
+    dashboardSidebar(width = 450, #Create side bar
+      sidebarMenu( #Create sidebar menu
       menuItem("Home", tabName = "home", icon=icon("home")),
       menuItem("Data", tabName = "data", icon=icon("table") ),
       menuItem("Authorization", tabName = "authorization", icon = icon("signature")),
       menuItem("Number of Matches", tabName = "numberofmatches", icon= icon("equals")),
       menuItem("Status", tabName = "status", icon = icon("check")))
     ),
-    dashboardBody(
+    dashboardBody( #Create the body for each menu item
       tabItems(
         tabItem(tabName = "home",
                 fluidPage(
